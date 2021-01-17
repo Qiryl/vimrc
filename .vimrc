@@ -103,6 +103,11 @@ endif
 let g:airline_symbols_ascii = 1
 let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
 let g:airline_section_z = '%3l/%L:%2v'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline#extensions#tabline#exclude_preview = 0
+let g:airline#extensions#tabline#show_tab_nr = 0
 
 " cpp
 let g:cpp_class_scope_highlight = 1
